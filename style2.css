@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    body {
+      background-image: url('D:\New folder\bg-image.jpg'); 
+      background-size: cover;
+      background-position: center;
+  }
+  
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+/* Image Background Styles */
+.background-image {
+  position: fixed; /* Fix the image position */
+  top: 0;
+  left: 0;
+  width: 100%; /* Make the image cover the entire viewport width */
+  height: 100%; /* Make the image cover the entire viewport height */
+  background-image: url('../D:/New folder/bg-10.jpg'); /* Specify the image URL */
+  background-size: cover; /* Cover the entire container */
+  opacity: 0.5; /* Set opacity to 50% */
+  z-index: -1; /* Place the image behind other content */
+}
+
+main {
+    padding: 20px;
+}
+nav {
+  background-color: #fffcfc;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.loyalty-benefits {
+    margin-top: 20px;
+}
+
+.loyalty-benefit {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/*footer*/
+.footer {
+    background-color: #0e0606;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font:white;
+    font-size: smaller;
+  
+  }
+  
+  .footer h3 {
+    margin-top: 0;
+  }
+  
+  .contact-info {
+    flex: 1;
+    color: white;
+  }
+  
+  .social-media {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media ul li {
+    margin-bottom: 20px;
+  }
+  .social-media ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .social-media ul li a:hover {
+    color: green;
+  }
+  
+  .quick-links {
+    color: white;
+    flex: 1;
+    text-align: right;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links ul li {
+    margin-bottom: 20px;
+  }
+  .quick-links ul li a {
+    color: white; 
+    text-decoration: none;
+  }
+  .quick-links ul li a:hover {
+    color: green;
+  }
+  .footer .copyright {
+    flex: 1;
+    text-align: center;
+    color: white;
+  }
+
+  
